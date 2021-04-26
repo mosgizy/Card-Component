@@ -89,13 +89,13 @@ h1{
     .container{
 	display:flex;
 	flex-direction:row-reverse;
-	max-width:950px;
+	max-width:980px;
 	margin:auto;
 	padding-bottom:0px;
     }
 
     picture{
-	width:2000px;
+	flex:0 0 45%;
     }
 
     img{
@@ -105,8 +105,9 @@ h1{
     }
 
     .info{
+	flex:0 0 45%;
 	text-align:left;
-	padding:60px 55px 0px 55px;
+	padding:60px 20px 0px 0px;
     }
 
     .stat{
